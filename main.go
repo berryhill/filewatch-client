@@ -32,7 +32,7 @@ const (
 )
 
 var (
-	addr      = flag.String("addr", "35.225.249.250:8080", "http service address")
+	addr      = flag.String("addr", "35.202.1.180:8080", "http service address")
 	homeTempl = template.Must(template.New("").Parse(homeHTML))
 	filename  string
 	upgrader  = websocket.Upgrader{
